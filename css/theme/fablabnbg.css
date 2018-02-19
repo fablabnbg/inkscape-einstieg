@@ -20,6 +20,17 @@ body {
   font-weight: normal;
   color: #222; }
 
+.reveal .colophon {
+    font-size: 50%;
+}
+
+.reveal .soft {
+    margin: -50px 0 0 0;
+    padding: 0 0 0 0;
+    color: rgba(100, 100, 100, 0.5);
+    font-size: 30%;
+}
+
 ::selection {
   color: #fff;
   background: #98bdef;
@@ -63,6 +74,16 @@ body {
 
 .reveal h1 {
   text-shadow: none; }
+
+.reveal .title-name {
+    margin-top: 4em;
+    color: #96cb5c;
+}
+
+.reveal .title-mail {
+    color: #96cb5c;
+    font-size: 75%;
+}
 
 /*********************************************
  * OTHER
