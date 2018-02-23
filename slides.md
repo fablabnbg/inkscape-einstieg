@@ -8,7 +8,7 @@
 
 * https://inkscape.org/download
 
-![Inkscape_fuer_Maker.pdf](Inkscape_fuer_Maker.pdf)
+![Inkscape-fuer-Maker.pdf](Inkscape-fuer-Maker.pdf)
 
 ---
 
