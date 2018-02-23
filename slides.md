@@ -1,14 +1,14 @@
 # Inkscape Überblick
 
-* Linien, Kreise, Rechtecke, ...
-* Das kann doch jedes Malprogramm?
+* Linien, Kreise, Rechtecke, Splines, Pfade ...
 
 * kostenlos, quelloffen, erweiterbar.
-* leicht zu erlernen
 
 * https://inkscape.org/download
 
 * PDF [Inkscape für Maker](Inkscape-fuer-Maker.pdf)
+
+* Übungen [Skript.md](https://github.com/fablabnbg/inkscape-einstieg/blob/master/script.md)
 
 ---
 
