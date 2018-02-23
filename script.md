@@ -19,8 +19,17 @@ zugänglichen Maschinen. Der Aufbau eines räumlichen Modells mit unserer
 steile Lernkurve mit schnellen Erfolgen.
 
 
-Live-Präsentation
-=================
+Präsentation und Software
+=========================
+
+* https://fablabnbg.github.io/inkscape-einstieg/Inkscape-fuer-Maker.pdf
+* https://inkscape.org/download
+* 3D-Druck via openSCAD https://github.com/fablabnbg/inkscape-paths2openscad
+* Andere Inkscape Erweiterungen https://github.com/fablabnbg?q=inkscape-
+
+
+Übungen
+=======
 
 Folie 7
 -------
@@ -40,7 +49,7 @@ Folie 8
 -------
 `cp backup/table_w_drawer.svg . ; inkscape table_w_drawer.svg`
 
- - wortlos Schublade löschen.
+ - Schublade löschen.
 
 Hier ist ein Rechteck mit vier kleinen Rechtecken. 
 
@@ -54,8 +63,8 @@ Hier ist ein Rechteck mit vier kleinen Rechtecken.
 Achtung Denksportaufgabe:
 Stellen wir uns vor, das wäre ein Tisch von unten. Okay?
 
- - Erweiterungen -> aus Pfad erzeugen -> Pfade nach openSCAD...
-   Inkscape links, openscad rechts (ohne Editor und ohne Konsole)
+ - `Erweiterungen -> aus Pfad erzeugen -> Pfade nach openSCAD...`
+   Inkscape und openscad nebeneinander (ohne Editor und ohne Konsole)
 
  - Nun wollen wir eine Schublade unter den Tisch hängen.
  - Rechteck von Rechteck subtrahieren, um einen 3-Seitigen Rahmen 
