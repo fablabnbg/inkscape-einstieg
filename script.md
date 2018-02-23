@@ -26,6 +26,7 @@ Präsentation und Software
 * https://inkscape.org/download
 * 3D-Druck via openSCAD https://github.com/fablabnbg/inkscape-paths2openscad
 * Andere Inkscape Erweiterungen https://github.com/fablabnbg?q=inkscape-
+* Ansteuerung unseres Lasers im FabLab Nürnberg https://wiki.fablab-nuernberg.de/w/ZING_4030
 
 
 Übungen
@@ -40,10 +41,10 @@ Hier ist ein Smiley. Tomate mit Gesicht und Stil.
 Den lösche ich und wir zeichnen das neu:
  - Die Augen sind schräg stehende Ellipsen, gespiegelt, symmetrisch
  - Der Mund ist ein Rechteck, in einen Pfad umgewandelt,
-   die unteren beiden Eckpunkte gelöscht.
- - Der Stil-Ansatz kann diskutiert werden:
-   - Laser würde die Kreislinie durchschneiden. Das fällt auseinander!
-   - Vereinigen, oder passend öffnen.
+   die unteren beiden Eckpunkte mit `Entf` gelöscht.
+ - Diskussion Stil-Ansatz:
+   - Der Laser würde die Kreislinie durchschneiden. Das fällt auseinander!
+   - `Pfad -> Vereinigung` oder passend öffnen.
 
 Folie 8
 -------
@@ -54,25 +55,25 @@ Folie 8
 Hier ist ein Rechteck mit vier kleinen Rechtecken. 
 
  - Wir sehen die Platte ist 90 x 90 mm gross.
- - Rechts-Klick Objekteigenschaften 
+ - `Rechts-Klick -> Objekteigenschaften`
    - Hier sehen wir die Höhe der Platte in der dritten Dimension
      `Height: 5 mm`
    - Bei den Beinen steht da 
      `Height: 62 mm`
 
-Achtung Denksportaufgabe:
+**Achtung Denksportaufgabe:**
 Stellen wir uns vor, das wäre ein Tisch von unten. Okay?
 
  - `Erweiterungen -> aus Pfad erzeugen -> Pfade nach openSCAD...`
    Inkscape und openscad nebeneinander (ohne Editor und ohne Konsole)
 
  - Nun wollen wir eine Schublade unter den Tisch hängen.
- - Rechteck von Rechteck subtrahieren, um einen 3-Seitigen Rahmen 
+ - Rechteck von Rechteck subtrahieren, um einen 3-seitigen Rahmen 
    zu erzeugen. Wir nutzen ein Schnappgitter für gleiche Abstände.
- - Dieser Rahmen bekommt `Height: 12 mm`    und auch `Raise: 5 mm`
+ - Dieser Rahmen bekommt `Height: 12 mm` und auch `Raise: 5 mm`
  - Eine dünne Bodenplatte `Height: 1 mm` innen hinein bei `Raise: 15 mm`
  - ins Leere klicken, `Alt-Q`
  - Frontplatte etwas breiter und etwas höher: `Height: 13 mm`
- - Griff, nur eine offene Linie, mit 2mm Linienbreite, `Height: 2 mm`
+ - Griff (nur eine offene gebogene Linie) mit 2mm Linienbreite, `Height: 2 mm`
  - ins Leere klicken, `Alt-Q`
 
